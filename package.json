@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@lffg/data-structures",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-lffg": "^20.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "eslintConfig": {
+    "extends": "lffg"
+  },
+  "prettier": "eslint-config-lffg/prettier"
+}
