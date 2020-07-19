@@ -83,7 +83,7 @@ export class LinkedList<T> {
    */
   shift(): void {
     if (this.head === null) {
-      throw new RangeError('Cannot unshift an empty list.');
+      throw new RangeError('Cannot shift an empty list.');
     }
 
     this.head = this.head.next;
